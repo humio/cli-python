@@ -1,3 +1,5 @@
+project_name: humio
+
 builds:
   - binary: humio
     goos:
@@ -17,11 +19,11 @@ release:
 
 brew:
   github:
-    owner: goreleaser
-    name: homebrew-tap
+    owner: humio
+    name: homebrew-humio
   folder: Formula
-  homepage:  http://goreleaser.github.io
-  description: Deliver Go binaries as fast and easily as possible
+  homepage:  https://humio.com/
+  description: Manage and Stream Logs to Humio
   test: |
     system "echo DONE"
 
