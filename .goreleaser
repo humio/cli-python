@@ -12,7 +12,7 @@ release:
   # Default is extracted from the origin remote URL.
   github:
     owner: humio
-    name: cli
+    name: go-cli
 
   # If set to true, will mark the release as not ready for production.
   # Default is false.

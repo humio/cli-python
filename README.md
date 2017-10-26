@@ -34,7 +34,7 @@ $ echo "Hello Humio" | humio -d another-dataspace [...]
 ## @name and @session
 
 All events are will be annotated with `@name` and `@session` attributes.
-`@name` gives you a way to tag your streams to easily find them again, e.g.:
+`@name` gives you a way to tag your streams atito easily find them again, e.g.:
 
 ```bash
 $ humio -n work-related /usr/local/share/mysql.conf
