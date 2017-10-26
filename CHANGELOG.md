@@ -6,6 +6,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-## 0.0.1 - 2017-10-26
+## 0.1.0 - 2017-10-26
 ### Added
 - Initial Release for the Humio CLI tool
