@@ -16,26 +16,12 @@ release:
 
 
 brew:
-  # Reporitory to push the tap to.
   github:
     owner: humio
     name: homebrew-humio
-
   folder: Formula
-
-  # Git author used to commit to the repository.
-  # Defaults are shown.
-  commit_author:
-    name: Humio
-    email: info@humio.com
-
-  # Your app's homepage.
-  homepage: "https://humio.com/"
-
-  # Your app's description.
-  # Default is empty.
-  description: "Manage and Stream Logs to Humio"
-
+  homepage:  https://humio.com/
+  description: Manage and Stream Logs to Humio
 
 archive:
   format: tar.gz
