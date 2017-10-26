@@ -18,21 +18,14 @@ release:
   # Default is false.
   prerelease: true
 
-archive:
-  format: tar.gz
-  replacements:
-    amd64: 64-bit
-    darwin: macOS
-    linux: Linux
-  files:
-    - LICENSE.md
-    - CHANGELOG.md
 
 brew:
   # Reporitory to push the tap to.
   github:
     owner: humio
     name: homebrew-humio
+
+  folder: Formula
 
   # Git author used to commit to the repository.
   # Defaults are shown.
@@ -46,3 +39,17 @@ brew:
   # Your app's description.
   # Default is empty.
   description: "Manage and Stream Logs to Humio"
+
+
+archive:
+  format: tar.gz
+  replacements:
+    amd64: 64-bit
+    darwin: macOS
+    linux: Linux
+  files:
+    - LICENSE.md
+    - CHANGELOG.md
+  format_overrides:
+    - goos: windows
+      format: zip
