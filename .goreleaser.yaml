@@ -12,7 +12,7 @@ release:
   # Default is extracted from the origin remote URL.
   github:
     owner: humio
-    name: go-cli
+    name: cli-go
 
 
 brew:
