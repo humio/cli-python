@@ -17,11 +17,14 @@ release:
 
 brew:
   github:
-    owner: humio
-    name: homebrew-humio
+    owner: goreleaser
+    name: homebrew-tap
   folder: Formula
-  homepage:  https://humio.com/
-  description: Manage and Stream Logs to Humio
+  homepage:  http://goreleaser.github.io
+  description: Deliver Go binaries as fast and easily as possible
+  test: |
+    system "echo DONE"
+
 
 archive:
   format: tar.gz
