@@ -14,10 +14,6 @@ release:
     owner: humio
     name: go-cli
 
-  # If set to true, will mark the release as not ready for production.
-  # Default is false.
-  prerelease: true
-
 
 brew:
   # Reporitory to push the tap to.
